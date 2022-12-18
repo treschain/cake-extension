@@ -122,7 +122,7 @@ export const initBackgroundState: BackgroundStateType = {
 								 
 				  
 		  
-            ROPSTEN: {
+            TRESTEST: {
                 "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1": {
                     address: "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1",
                     name: "Test Contact ",
@@ -557,14 +557,14 @@ export const initBackgroundState: BackgroundStateType = {
                 actionsTimeIntervals: {} as ActionsTimeInterval,
                 nativelySupported: true,
             },
-            ROPSTEN: {
-                name: "ropsten",
-                desc: "Ropsten Testnet",
-                chainId: 3,
-                networkVersion: "3",
+            TRESTEST: {
+                name: "trestest",
+                desc: "Tres Leches Testnet",
+                chainId: 6065,
+                networkVersion: "6065",
                 nativeCurrency: {
-                    name: "Ether",
-                    symbol: "ETH",
+                    name: "Tres Leches",
+                    symbol: "TRES",
                     decimals: 18,
                 },
                 enable: false,
@@ -573,19 +573,19 @@ export const initBackgroundState: BackgroundStateType = {
                 features: ["sends"],
                 ens: true,
                 showGasLevels: true,
-                rpcUrls: [`https://ropsten-node.blockwallet.io`],
-                blockExplorerUrls: ["https://ropsten.etherscan.io"],
+                rpcUrls: [`https://rpc-test.tresleches.finance`],
+                blockExplorerUrls: ["https://explorer-test.tresleches.finance"],
                 actionsTimeIntervals: {} as ActionsTimeInterval,
                 nativelySupported: true,
             },
-            KOVAN: {
-                name: "kovan",
-                desc: "Kovan Testnet",
-                chainId: 42,
-                networkVersion: "42",
+            TRESMAIN: {
+                name: "tresleches",
+                desc: "Tres Leches Mainnet",
+                chainId: 6066,
+                networkVersion: "6066",
                 nativeCurrency: {
-                    name: "Ether",
-                    symbol: "ETH",
+                    name: "Tres Leches",
+                    symbol: "TRES",
                     decimals: 18,
                 },
                 enable: false,
@@ -594,8 +594,8 @@ export const initBackgroundState: BackgroundStateType = {
                 features: ["sends"],
                 ens: false,
                 showGasLevels: true,
-                rpcUrls: [`https://kovan-node.blockwallet.io`],
-                blockExplorerUrls: ["https://kovan.etherscan.io"],
+                rpcUrls: [`https://rpc.tresleches.finance`],
+                blockExplorerUrls: ["https://explorer.tresleches.finance"],
                 actionsTimeIntervals: {} as ActionsTimeInterval,
                 nativelySupported: true,
             },
