@@ -16,7 +16,6 @@ export enum AvailableNetworks {
     OPTIMISM = 'optimism',
     TRESMAIN = 'tresleches',
 }
-}
 
 /**
  * List of known supported currencies
