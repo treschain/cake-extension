@@ -14,6 +14,8 @@ export enum AvailableNetworks {
     ARBITRUM = 'arbitrum',
     AVALANCHEC = 'avalanchec',
     OPTIMISM = 'optimism',
+    TRESMAIN = 'tresleches',
+}
 }
 
 /**
@@ -30,6 +32,8 @@ export enum KnownCurrencies {
     BNB = 'bnb',
     xDAI = 'xdai',
     AVAX = 'avax',
+    TRES = 'tres',
+    
 }
 
 /**
@@ -39,6 +43,7 @@ export type NativeKnownCurrencies =
     | KnownCurrencies.ETH
     | KnownCurrencies.MATIC
     | KnownCurrencies.AVAX
+    | KnownCurrencies.TRES
     | KnownCurrencies.xDAI
     | KnownCurrencies.BNB;
 
@@ -63,6 +68,7 @@ export type CurrencyAmountType = {
     matic: '100' | '1000' | '10000' | '100000';
     bnb: '0.1' | '1' | '10' | '100';
     avax: '10' | '100' | '500';
+    tres: '10' | '100' | '500';
     xdai: '100' | '1000' | '10000' | '100000';
 };
 
@@ -114,6 +120,10 @@ export type CurrencyAmountPair =
           currency: KnownCurrencies.xDAI;
           amount: CurrencyAmountType[KnownCurrencies.xDAI];
       }
+      | {
+        currency: KnownCurrencies.TRES;
+        amount: CurrencyAmountType[KnownCurrencies.TRES];
+    }
     | {
           currency: KnownCurrencies.AVAX;
           amount: CurrencyAmountType[KnownCurrencies.AVAX];
@@ -153,6 +163,7 @@ export const CurrencyAmountArray: {
     matic: ['100', '1000', '10000', '100000'],
     bnb: ['0.1', '1', '10', '100'],
     avax: ['10', '100', '500'],
+    tres: ['10', '100', '500'],
     xdai: ['100', '1000', '10000', '100000'],
 };
 
@@ -168,6 +179,7 @@ export const CurrenciesByChain: {
     arbitrum: [KnownCurrencies.ETH],
     optimism: [KnownCurrencies.ETH],
     avalanchec: [KnownCurrencies.AVAX],
+    tresleches: [KnownCurrencies.TRES],
     bsc: [KnownCurrencies.BNB],
     xdai: [KnownCurrencies.xDAI],
     goerli: [
