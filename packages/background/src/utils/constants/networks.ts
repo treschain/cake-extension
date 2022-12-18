@@ -714,6 +714,7 @@ export const INITIAL_NETWORKS: Networks = {
         order: 13,
         features: [FEATURES.SENDS],
         ens: false,
+        showGasLevels: true,
         hasFixedGasCost: true,
         gasLowerCap: {
             maxPriorityFeePerGas: BigNumber.from('0x6fc23ac00'), // 30 GWEI,
