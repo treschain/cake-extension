@@ -34,7 +34,7 @@ function injectProvider() {
 
 window.addEventListener('ethereum#initialized', (e: Event) => {
     const customEvent = e as CustomEvent;
-    if (customEvent.detail !== 'isBlockWallet') {
+    if (customEvent.detail !== 'isCakeWallet') {
         providerOverridden = true;
     } else {
         providerOverridden = false;

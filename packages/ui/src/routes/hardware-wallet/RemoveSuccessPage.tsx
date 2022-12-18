@@ -1,7 +1,7 @@
 import LogoHeader from "../../components/LogoHeader"
 import PageLayout from "../../components/PageLayout"
 
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/logo.png"
 import { Devices } from "../../context/commTypes"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"
 import { capitalize } from "../../util/capitalize"

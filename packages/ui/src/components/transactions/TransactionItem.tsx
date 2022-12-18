@@ -11,7 +11,7 @@ import { Classes, classnames } from "../../styles"
 import { AssetIcon } from "./../AssetsList"
 import Tooltip from "../../components/label/Tooltip"
 import eth from "../../assets/images/icons/ETH.svg"
-import blankLogo from "../../assets/images/logo.svg"
+import blankLogo from "../../assets/images/logo.png"
 import flashbotsLogo from "../../assets/images/flashbots.png"
 import {
     BridgeSubstatus,

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { Classes } from "../styles/classes"
 import LogoHeader from "../components/LogoHeader"
 import PageLayout from "../components/PageLayout"
-import logo from "../assets/images/logo.svg"
+import logo from "../assets/images/logo.png"
 
 const IntroductionPage = () => (
     <PageLayout centered className="relative overflow-hidden">

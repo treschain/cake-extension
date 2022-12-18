@@ -1,7 +1,7 @@
 import PopupLayout from "../components/popup/PopupLayout"
 import PopupHeader from "../components/popup/PopupHeader"
 import LinkButton from "../components/button/LinkButton"
-import logo from "../assets/images/logo.svg"
+import logo from "../assets/images/logo.png"
 import PopupFooter from "../components/popup/PopupFooter"
 
 const BackupDonePage = () => {

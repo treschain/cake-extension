@@ -13,7 +13,7 @@ import AntiPhishing from "../components/phishing/AntiPhishing"
 import * as yup from "yup"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { useForm } from "react-hook-form"
-import logo from "../assets/images/logo.svg"
+import logo from "../assets/images/logo.png"
 
 import { unlockApp, requestSeedPhrase } from "../context/commActions"
 import { openReset } from "../context/commActions"

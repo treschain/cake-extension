@@ -6,12 +6,12 @@ import { IoLogoTwitter } from "react-icons/io"
 import { HiGlobeAlt } from "react-icons/hi"
 import { FaTelegramPlane } from "react-icons/fa"
 import { GrReddit } from "react-icons/gr"
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/logo.png"
 
 const links = [
     {
         icon: <HiGlobeAlt className="w-5 h-5" />,
-        link: "https://tresleches.finance,
+        link: "https://tresleches.finance",
         text: "tresleches.finance",
     },
     {

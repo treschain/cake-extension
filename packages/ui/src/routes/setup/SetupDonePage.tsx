@@ -5,7 +5,7 @@ import Confetti from "react-dom-confetti"
 import LogoHeader from "../../components/LogoHeader"
 import PageLayout from "../../components/PageLayout"
 
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/logo.png"
 import { completeSetup } from "../../context/commActions"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"
 
