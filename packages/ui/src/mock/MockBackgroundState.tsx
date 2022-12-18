@@ -106,6 +106,22 @@ export const initBackgroundState: BackgroundStateType = {
                     note: "",
                     isEns: false,
                 },
+					   
+																   
+																																		  
+											  
+								 
+									 
+					  
+            },
+					   
+															   
+																		  
+										  
+							 
+								 
+				  
+		  
             ROPSTEN: {
                 "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1": {
                     address: "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1",
@@ -648,54 +664,54 @@ export const initBackgroundState: BackgroundStateType = {
                 actionsTimeIntervals: {} as ActionsTimeInterval,
                 nativelySupported: true,
             },
-            TRESTEST: {
-                name: "trestest",
-                desc: "Tres Leches Testnet",
-                chainId: 6065,
-                networkVersion: "6065",
-                nativeCurrency: {
-                    name: "Tres Leches Testnet",
-                    symbol: "TRES",
-                    decimals: 18,
-                },
-                iconUrls: [
-                    "https://assets.trustwalletapp.com/blockchains/smartchain/info/logo.png",
-                ],
-                enable: false,
-                test: true,
-                order: 11,
-                features: ["sends"],
-                ens: false,
-                showGasLevels: true,
-                rpcUrls: ["https://rpc-test.tresleches.finance/"],
-                blockExplorerUrls: ["https://explorer-test.tresleches.finance"],
-                actionsTimeIntervals: {} as ActionsTimeInterval,
-                nativelySupported: true,
-            },
-            TRESMAIN: {
-                name: "tresleches",
-                desc: "Tres Leches Mainnet",
-                chainId: 6066,
-                networkVersion: "6066",
-                nativeCurrency: {
-                    name: "Tres Leches Mainnet",
-                    symbol: "TRES",
-                    decimals: 18,
-                },
-                iconUrls: [
-                    "https://assets.trustwalletapp.com/blockchains/smartchain/info/logo.png",
-                ],
-                enable: false,
-                test: true,
-                order: 12,
-                features: ["sends"],
-                ens: false,
-                showGasLevels: true,
-                rpcUrls: ["https://rpc.tresleches.finance/"],
-                blockExplorerUrls: ["https://explorer.tresleches.finance"],
-                actionsTimeIntervals: {} as ActionsTimeInterval,
-                nativelySupported: true,
-            },
+					   
+								 
+											
+							  
+									   
+								 
+												
+								   
+								 
+				  
+						   
+																																									 
+				  
+							  
+						   
+						  
+									
+						   
+									
+																  
+																				
+																
+										
+			  
+					   
+								   
+											
+							  
+									   
+								 
+												
+								   
+								 
+				  
+						   
+																																									 
+				  
+							  
+						   
+						  
+									
+						   
+									
+															 
+																		   
+																
+										
+			  
         },
         dappRequests: {
             //"1": {
