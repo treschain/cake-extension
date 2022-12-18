@@ -106,22 +106,6 @@ export const initBackgroundState: BackgroundStateType = {
                     note: "",
                     isEns: false,
                 },
-            TRESMAIN: {
-                    "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1": {
-                        address: "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1",
-                        name: "Test Contact ",
-                        note: "",
-                        isEns: false,
-                    },
-            },
-            TRESTEST: {
-                "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1": {
-                    address: "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1",
-                    name: "Test Contact ",
-                    note: "",
-                    isEns: false,
-                },
-        },
             ROPSTEN: {
                 "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1": {
                     address: "0x5621C68f21852811E1fd6208fDDD0FC13A844fD1",
