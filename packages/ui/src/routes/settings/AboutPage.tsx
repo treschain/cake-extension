@@ -11,23 +11,23 @@ import logo from "../../assets/images/logo.svg"
 const links = [
     {
         icon: <HiGlobeAlt className="w-5 h-5" />,
-        link: "https://blockwallet.io",
-        text: "blockwallet.io",
+        link: "https://tresleches.finance,
+        text: "tresleches.finance",
     },
     {
         icon: <FaTelegramPlane className="w-5 h-5" />,
-        link: "https://t.me/blockwallet",
-        text: "t.me/blockwallet",
+        link: "https://t.me/treslechesfinance",
+        text: "t.me/treslechesfinance",
     },
     {
         icon: <GrReddit className="w-5 h-5" />,
-        link: "https://www.reddit.com/r/BlankWallet/",
-        text: "reddit.com/blockwallet",
+        link: "https://www.reddit.com/r/TresLechesCake/",
+        text: "reddit.com/treslechescake",
     },
     {
         icon: <IoLogoTwitter className="w-5 h-5" />,
-        link: "https://twitter.com/GetBlockWallet",
-        text: "twitter.com/GetBlockWallet",
+        link: "https://twitter.com/treslecheschain",
+        text: "twitter.com/treslecheschain",
     },
 ]
 const AboutPage = () => {
@@ -38,15 +38,15 @@ const AboutPage = () => {
                     <div className="flex items-center">
                         <img
                             src={logo}
-                            alt="Blockwallet logo"
+                            alt="CakeWallet logo"
                             className="w-5 h-5"
                         />
                         <span className="ml-2 text-lg font-bold">
-                            BlockWallet
+                            CakeWallet
                         </span>
                     </div>
                     <p className="mt-4">
-                        BlockWallet is the most private, non-custodial browser
+                        CakeWallet is the most private, non-custodial browser
                         extension wallet where users can store funds and
                         interact with their favorite blockchain applications
                         anonymously.

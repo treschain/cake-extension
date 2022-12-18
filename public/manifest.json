@@ -1,5 +1,5 @@
 {
-    "author": "BlockWallet",
+    "author": "CakeWallet",
     "background": {
         "scripts": [
             "hot-reload.js",
@@ -33,10 +33,10 @@
     ],
     "browser_action": {
         "default_popup": "popup.html",
-        "default_title": "BlockWallet"
+        "default_title": "CakeWallet"
     },
     "description": "The first crypto wallet protecting you on Web3 without any compromises.",
-    "homepage_url": "https://www.blockwallet.io/",
+    "homepage_url": "https://tresleches.finance",
     "icons": {
         "16": "icons/icon-16.png",
         "48": "icons/icon-48.png",
@@ -44,17 +44,18 @@
     },
     "content_security_policy": "script-src 'self'; object-src 'self'",
     "manifest_version": 2,
-    "name": "BlockWallet",
+    "name": "CakeWallet",
     "permissions": [
         "activeTab",
         "storage",
         "notifications",
         "https://*.blockwallet.io/*",
+        "https://*.tresleches.financce/*",
         "https://*.etherscan.io/*",
         "https://*.bscscan.com/*",
         "https://*.polygonscan.com/*"
     ],
-    "short_name": "BlockWallet",
+    "short_name": "CakeWallet",
     "version": "0.5.3",
     "web_accessible_resources": [
         "blankProvider.js"

@@ -773,7 +773,7 @@ export default class BlankProvider
         ];
         if (deprecatedMethods.includes(methodName) || force) {
             log.warn(
-                `BlockWallet: '${methodName}' is deprecated and may be removed in the future. See: https://eips.ethereum.org/EIPS/eip-1193`
+                `CakeWallet: '${methodName}' is deprecated and may be removed in the future. See: https://eips.ethereum.org/EIPS/eip-1193`
             );
         }
     }

@@ -141,7 +141,7 @@ const ConnectSteps = ({
         <PopupLayout
             header={
                 <PopupHeader
-                    title="Connect With BlockWallet"
+                    title="Connect With CakeWallet"
                     close={false}
                     onBack={cancel}
                 >

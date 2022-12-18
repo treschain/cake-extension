@@ -117,6 +117,8 @@ const NETWORK_TOKENS_LIST: INetworkTokens = {
     4: {}, // rinkeby
     97: {}, // bsc testnet
     280: {}, // zkSync alpha testnet
+    6065: {}, // tresleches testnet
+    6066: {}, // tresleches mainnet
     1337: {}, // localhost
 };
 
@@ -149,6 +151,8 @@ const NETWORKS_NAMES: { [key in number]: string } = {
     100: 'xdai',
     50: 'xdc',
     280: 'zksync',
+    6065: 'trestest',
+    6066: 'tresleches',
 };
 
 export const NETWORK_TOKENS_LIST_ARRAY: { [chainId in number]: string[] } = {};
@@ -198,6 +202,9 @@ for (const chainId in TOKENS_LIST) {
                     break;
                 case 'T':
                     type = 'TT20';
+                    break;
+                case 'TR':
+                    type = 'TRES20';
                     break;
                 default:
                     type = token['t'];

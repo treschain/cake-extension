@@ -50,11 +50,11 @@ const SetupDonePage = () => {
                         </span>
                         <div className="flex flex-col md:flex-row items-center space-x-1 w-92 px-4 md:px-0 md:w-full mx-auto text-gray-600 text-sm text-center leading-loose">
                             <span>
-                                You're ready to start using BlockWallet.
+                                You're ready to start using CakeWallet.
                                 <br />
                                 Your journey to financial privacy starts here.
                                 <br />
-                                Access BlockWallet via the extensions section of
+                                Access CakeWallet via the extensions section of
                                 your browser.
                             </span>
                         </div>

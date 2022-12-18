@@ -42,6 +42,8 @@ const SINGLE_CALL_BALANCES_CONTRACTS: {
     42: '0x55ABBa8d669D60A10c104CC493ec5ef389EC92bb', // kovan
     4: '0x3183B673f4816C94BeF53958BaF93C671B7F8Cf2', // rinkeby
     97: '0x2352c63A83f9Fd126af8676146721Fa00924d7e4', // bsc testnet
+    6065: '0x4c31e8f96a2cb9e8f364F170f8872E0f478C125D', // Tres Leches Testnet
+    6066: '0x4c31e8f96a2cb9e8f364F170f8872E0f478C125D', // Tres Leches Mainet
     1337: '', // localhost
 };
 

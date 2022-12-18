@@ -39,9 +39,9 @@ export const BASE_BRIDGE_FEE = 0.005
 export const SWAP_QUOTE_REFRESH_TIMEOUT = 1000 * 15
 
 export const LINKS = {
-    TELEGRAM: "https://t.me/blockwallet",
-    GITHUB: "https://github.com/block-wallet/",
-    TWITTER: "https://twitter.com/BlockWallet",
+    TELEGRAM: "https://t.me/treslechesfinance",
+    GITHUB: "https://github.com/treslecheschain/",
+    TWITTER: "https://twitter.com/treslecheschain",
     WEBSITE_BUG_REPORT: "https://blockwallet.io/bug-report.html",
     GITHUB_BUG_REPORT:
         "https://github.com/block-wallet/extension/issues/new?assignees=&labels=&template=bug_report.md&title=",

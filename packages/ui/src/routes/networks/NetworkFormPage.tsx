@@ -374,7 +374,7 @@ const NetworkFormPage = ({
                         title: "Warning",
                         message: (
                             <span>
-                                BlockWallet does not verify custom networks.
+                                CakeWallet does not verify custom networks.
                                 Make sure you understand{" "}
                                 <a
                                     className="underline text-blue-600 hover:text-blue-800"
@@ -395,7 +395,7 @@ const NetworkFormPage = ({
                             <AiOutlineWarning className="w-4 h-4 yellow-300" />
                             <span className="text-xs text-yellow-900">
                                 <span className="font-bold">
-                                    BlockWallet does not verify custom networks.
+                                    CakeWallet does not verify custom networks.
                                 </span>
                             </span>
                         </div>

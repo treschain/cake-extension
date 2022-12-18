@@ -582,7 +582,7 @@ const SwapPage = () => {
                 />
                 {swapFee && (
                     <div className="flex items-center pt-2 text-xs text-gray-600 pt-0.5 mr-1 mt-2">
-                        <span>{`BlockWallet fee (${BASE_SWAP_FEE}%): ${swapFee}`}</span>
+                        <span>{`CakeWallet fee (${BASE_SWAP_FEE}%): ${swapFee}`}</span>
                     </div>
                 )}
             </div>
