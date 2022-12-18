@@ -676,7 +676,10 @@ export const INITIAL_NETWORKS: Networks = {
             symbol: 'tTRES',
             decimals: 18,
         },
-        hasFixedGasCost: false,
+        hasFixedGasCost: true,
+        gasLowerCap: {
+            maxPriorityFeePerGas: BigNumber.from('0x6fc23ac00'), // 30 GWEI,
+        },
         enable: true,
         test: true,
         order: 12,
@@ -684,7 +687,7 @@ export const INITIAL_NETWORKS: Networks = {
         ens: false,
         showGasLevels: true,
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png',
+            'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
         ],
         rpcUrls: ['https://rpc-test.tresleches.finance'],
         blockExplorerName: 'Tres Leches Explorer',
@@ -706,7 +709,10 @@ export const INITIAL_NETWORKS: Networks = {
             symbol: 'TRES',
             decimals: 18,
         },
-        hasFixedGasCost: false,
+        hasFixedGasCost: true,
+        gasLowerCap: {
+            maxPriorityFeePerGas: BigNumber.from('0x6fc23ac00'), // 30 GWEI,
+        },
         enable: true,
         test: true,
         order: 13,
@@ -714,7 +720,7 @@ export const INITIAL_NETWORKS: Networks = {
         ens: false,
         showGasLevels: true,
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png',
+            'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
         ],
         rpcUrls: ['https://rpc.tresleches.finance'],
         blockExplorerName: 'Tres Leches Explorer',
