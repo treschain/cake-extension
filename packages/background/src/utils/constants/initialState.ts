@@ -181,7 +181,7 @@ const initialState: BlankAppState = {
         },
     },
     NetworkController: {
-        selectedNetwork: 'tresleches',
+        selectedNetwork: 'mainnet',
         availableNetworks: INITIAL_NETWORKS,
         isNetworkChanging: false,
         isUserNetworkOnline: true,
