@@ -703,7 +703,7 @@ export const INITIAL_NETWORKS: Networks = {
         name: 'tresleches',
         desc: 'Tres Leches Mainnet',
         chainId: 6066,
-        networkVersion: '6o66',
+        networkVersion: '6066',
         nativeCurrency: {
             name: 'Tres Leches',
             symbol: 'TRES',

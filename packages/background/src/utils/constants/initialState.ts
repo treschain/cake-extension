@@ -176,10 +176,12 @@ const initialState: BlankAppState = {
             avalanchec: { pending: [] },
             bsc: { pending: [] },
             xdai: { pending: [] },
+            tresleches: { pending: [] },
+            
         },
     },
     NetworkController: {
-        selectedNetwork: 'mainnet',
+        selectedNetwork: 'tresleches',
         availableNetworks: INITIAL_NETWORKS,
         isNetworkChanging: false,
         isUserNetworkOnline: true,

@@ -14,6 +14,7 @@ export enum AvailableNetworks {
     ARBITRUM = 'arbitrum',
     AVALANCHEC = 'avalanchec',
     OPTIMISM = 'optimism',
+    TRES = 'tresleches',
 }
 
 /**
@@ -30,6 +31,7 @@ export enum KnownCurrencies {
     BNB = 'bnb',
     xDAI = 'xdai',
     AVAX = 'avax',
+    TRES = 'tres',
 }
 
 /**
@@ -40,6 +42,7 @@ export type NativeKnownCurrencies =
     | KnownCurrencies.MATIC
     | KnownCurrencies.AVAX
     | KnownCurrencies.xDAI
+    | KnownCurrencies.TRES
     | KnownCurrencies.BNB;
 
 /**
@@ -55,6 +58,7 @@ export type ERC20KnownCurrencies = Exclude<
  */
 export type CurrencyAmountType = {
     eth: '0.1' | '1' | '10' | '100';
+    tres: '0.1' | '1' | '10' | '100';
     dai: '100' | '1000' | '10000' | '100000';
     cdai: '5000' | '50000' | '500000' | '5000000';
     usdc: '100' | '1000';
@@ -81,6 +85,10 @@ export type CurrencyAmountPair =
     | {
           currency: KnownCurrencies.ETH;
           amount: CurrencyAmountType[KnownCurrencies.ETH];
+      }
+    | {
+          currency: KnownCurrencies.TRES;
+          amount: CurrencyAmountType[KnownCurrencies.TRES];
       }
     | {
           currency: KnownCurrencies.DAI;
@@ -145,6 +153,7 @@ export const CurrencyAmountArray: {
     [ccy in KnownCurrencies]: CurrencyAmountType[ccy][];
 } = {
     eth: ['0.1', '1', '10', '100'],
+    tres: ['0.1', '1', '10', '100'],
     dai: ['100', '1000', '10000', '100000'],
     cdai: ['5000', '50000', '500000', '5000000'],
     usdc: ['100', '1000'],
@@ -167,6 +176,7 @@ export const CurrenciesByChain: {
     polygon: [KnownCurrencies.MATIC],
     arbitrum: [KnownCurrencies.ETH],
     optimism: [KnownCurrencies.ETH],
+    tresleches: [KnownCurrencies.TRES],
     avalanchec: [KnownCurrencies.AVAX],
     bsc: [KnownCurrencies.BNB],
     xdai: [KnownCurrencies.xDAI],
