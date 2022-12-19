@@ -47,7 +47,7 @@
         "512": "images/icon-512.png"
     },
     "content_security_policy": "script-src 'self'; object-src 'self'",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "CakeWallet",
     "permissions": [
         "activeTab",
