@@ -68,4 +68,4 @@ build/prod-zip:
 	@$(MAKE) ENVIRONMENT=prod build/provider --no-print-directory
 	@$(MAKE) build/ui --no-print-directory
 	@$(MAKE) cp/release-notes --no-print-directory
-	@zip -r -D block-extension.zip dist/
+	@zip -r -D cakewallet-extension.zip dist/
