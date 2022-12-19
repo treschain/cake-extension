@@ -1,11 +1,8 @@
 {
     "author": "TresLeches",
-    "background": {
-        "scripts": [
-            "hot-reload.js",
-            "background.js"
-        ]
-    },
+  "background": {
+    "service_worker": "background.js"
+  },
     "content_scripts": [
         {
             "js": [
@@ -31,7 +28,7 @@
             ]
         }
     ],
-    "browser_action": {
+    "action": {
         "default_popup": "popup.html",
         "default_title": "CakeWallet"
     },
@@ -46,10 +43,14 @@
         "128": "images/icon-128.png",
         "512": "images/icon-512.png"
     },
-    "content_security_policy": "script-src 'self'; object-src 'self'",
-    "manifest_version": 2,
+	    "content_security_policy": {
+  		"extension_pages": "script-src 'self'; object-src 'self'",
+ 	 	"sandbox": ""
+	},
+
+    "manifest_version": 3,
     "name": "CakeWallet",
-    "permissions": [
+    "host_permissions": [
         "activeTab",
         "storage",
         "notifications",
@@ -61,7 +62,10 @@
     ],
     "short_name": "CakeWallet",
     "version": "0.5.3",
-    "web_accessible_resources": [
-        "blankProvider.js"
-    ]
+	"web_accessible_resources": {
+    	"resources": [
+        	"blankProvider.js"
+        ]
+    },
+
 }
