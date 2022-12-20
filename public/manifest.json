@@ -1,7 +1,7 @@
 {
     "author": "TresLeches",
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "hot-reload.js"
   },
     "content_scripts": [
         {
@@ -32,6 +32,12 @@
         "default_popup": "popup.html",
         "default_icon": "images/icon-32.png",
         "default_title": "CakeWallet"
+    },
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "64": "images/icon-64.png",
+        "128": "images/icon-128.png"
     },
     "description": "Official Wallet for Tres Leches Chain, A blockchain so sweet you can actually taste it.",
     "homepage_url": "https://tresleches.finance",
