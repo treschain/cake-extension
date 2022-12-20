@@ -61,9 +61,9 @@
     ],
     "short_name": "CakeWallet",
     "version": "0.5.3",
-	"web_accessible_resources": {
-    	"resources": ["blankProvider.js"],
+    "web_accessible_resources": [{
+        "resources": ["blankProvider.js"],
         "matches": ["<all_urls>"]
-    }
+      }]
 
 }
