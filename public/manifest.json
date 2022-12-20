@@ -1,7 +1,7 @@
 {
     "author": "TresLeches",
   "background": {
-    "service_worker": "hot-reload.js"
+    "service_worker": "background-wrapper.js"
   },
   "content_scripts": [
     {

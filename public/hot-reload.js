@@ -1,4 +1,4 @@
-import * as module from 'background.js';
+
 const filesInDirectory = (dir) =>
   new Promise((resolve) =>
     dir.createReader().readEntries((entries) =>
