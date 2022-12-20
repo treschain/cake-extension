@@ -68,6 +68,7 @@ LOG_LEVEL=error
 #### Install
 
 To install all the dependencies run the command
+npm install
 
 ```
 make install
@@ -80,6 +81,9 @@ Once you installed everything run the command
 ```
 make build
 ```
+make build/prod
+
+make build/prod-zip
 
 ### Running the tests
 
