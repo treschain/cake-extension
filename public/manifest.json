@@ -30,19 +30,11 @@
     ],
     "action": {
         "default_popup": "popup.html",
+        "default_icon": "images/icon-32.png",
         "default_title": "CakeWallet"
     },
     "description": "Official Wallet for Tres Leches Chain, A blockchain so sweet you can actually taste it.",
     "homepage_url": "https://tresleches.finance",
-    "icons": {
-        "16": "images/icon-16.png",
-        "19": "images/icon-19.png",
-        "32": "images/icon-32.png",
-        "38": "images/icon-38.png",
-        "64": "images/icon-64.png",
-        "128": "images/icon-128.png",
-        "512": "images/icon-512.png"
-    },
 	    "content_security_policy": {
   		"extension_pages": "script-src 'self'; object-src 'self'"
 	},
