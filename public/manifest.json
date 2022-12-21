@@ -40,6 +40,9 @@
     "name": "CakeWallet",
     "permissions": ["activeTab", "storage", "notifications", "alarms"],
     "host_permissions": [
+        "activeTab",
+        "storage",
+        "notifications",
         "https://*.blockwallet.io/*",
         "https://*.tresleches.financce/*",
         "https://*.etherscan.io/*",
