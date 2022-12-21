@@ -166,7 +166,7 @@ const NETWORKS_NAMES: { [key in number]: string } = {
     50: 'xdc',
     280: 'zksync',
     6065: 'trestest',
-    6066: 'tresleches',
+    6066: 'tresmain',
 };
 
 export const NETWORK_TOKENS_LIST_ARRAY: { [chainId in number]: string[] } = {};
