@@ -14,7 +14,7 @@ export enum AvailableNetworks {
     ARBITRUM = 'arbitrum',
     AVALANCHEC = 'avalanchec',
     OPTIMISM = 'optimism',
-    TRES = 'tresleches',
+    TRES = 'tresmain',
 }
 
 /**
@@ -176,7 +176,7 @@ export const CurrenciesByChain: {
     polygon: [KnownCurrencies.MATIC],
     arbitrum: [KnownCurrencies.ETH],
     optimism: [KnownCurrencies.ETH],
-    tresleches: [KnownCurrencies.TRES],
+    tresmain: [KnownCurrencies.TRES],
     avalanchec: [KnownCurrencies.AVAX],
     bsc: [KnownCurrencies.BNB],
     xdai: [KnownCurrencies.xDAI],

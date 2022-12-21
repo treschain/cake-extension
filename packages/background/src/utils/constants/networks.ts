@@ -145,7 +145,7 @@ export type Networks = {
 
 export const INITIAL_NETWORKS: Networks = {
     TRESMAIN: {
-        name: 'tresleches',
+        name: 'tresmain',
         desc: 'Tres Leches Mainnet',
         chainId: 6066,
         networkVersion: '6066',
@@ -154,14 +154,20 @@ export const INITIAL_NETWORKS: Networks = {
             symbol: 'TRES',
             decimals: 18,
         },
-        hasFixedGasCost: false,
         enable: true,
         test: false,
         order: 1,
         features: [FEATURES.SENDS],
         ens: false,
-        showGasLevels: false,
-        rpcUrls: ['https://rpc.tresleches.finance'],
+        hasFixedGasCost: true,
+        gasLowerCap: {
+            maxPriorityFeePerGas: BigNumber.from('0x6fc23ac00'), // 30 GWEI,
+        },
+        showGasLevels: true,
+        iconUrls: [
+            'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
+        ],
+        rpcUrls: ['http://rpc.tresleches.finance:8545'],
         blockExplorerUrls: ['https://explorer.tresleches.finance'],
         blockExplorerName: 'Tres Leches Explorer',
         etherscanApiUrl: 'https://explorer.tresleches.finance/api',

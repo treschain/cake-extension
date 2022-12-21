@@ -176,7 +176,7 @@ const initialState: BlankAppState = {
             avalanchec: { pending: [] },
             bsc: { pending: [] },
             xdai: { pending: [] },
-            tresleches: { pending: [] },
+            tresmain: { pending: [] },
             
         },
     },

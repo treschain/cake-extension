@@ -579,7 +579,7 @@ export const initBackgroundState: BackgroundStateType = {
                 nativelySupported: true,
             },
             TRESMAIN: {
-                name: "tresleches",
+                name: "tresmain",
                 desc: "Tres Leches Mainnet",
                 chainId: 6066,
                 networkVersion: "6066",
