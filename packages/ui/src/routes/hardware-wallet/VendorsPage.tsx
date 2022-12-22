@@ -76,15 +76,15 @@ const HardwareWalletVendorsPage = () => {
                 <Divider />
                 <div className="w-full flex flex-col p-8 space-y-5">
                     <ExternalLink
-                        href="https://help.blockwallet.io/hc/en-us/articles/6670564432657-How-do-Hardware-Wallets-Work-"
+                        href="https://docs.tresleches.finance/our-wallet/wallet/extension/how-do-hardware-wallets-work"
                         title="How do Hardware Wallets work?"
                     />
                     <ExternalLink
-                        href="https://help.blockwallet.io/hc/en-us/articles/6670519949585-How-to-get-the-Ledger-Hardware-Wallet"
+                        href="https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-get-the-ledger-hardware-wallet"
                         title="How to get a Ledger?"
                     />
                     <ExternalLink
-                        href="https://help.blockwallet.io/hc/en-us/articles/6670542248209-How-to-get-the-Trezor-Hardware-Wallet-"
+                        href="https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-get-the-trezor-hardware-wallet"
                         title="How to get a Trezor?"
                     />
                 </div>

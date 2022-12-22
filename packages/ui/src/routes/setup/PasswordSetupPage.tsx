@@ -148,7 +148,7 @@ const PasswordSetupPage = () => {
                             <label htmlFor="acceptTOU" className="text-xs">
                                 I have read and agree to the{" "}
                                 <a
-                                    href="https://blockwallet.io/terms-of-use-of-block-wallet.html"
+                                    href="https://docs.tresleches.finance/our-wallet/wallet/extension/terms-of-use-of-blockwallet-cakewallet"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-blue-500"

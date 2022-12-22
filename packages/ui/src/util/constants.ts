@@ -42,19 +42,19 @@ export const LINKS = {
     TELEGRAM: "https://t.me/treslechesfinance",
     GITHUB: "https://github.com/treslecheschain/",
     TWITTER: "https://twitter.com/treslecheschain",
-    WEBSITE_BUG_REPORT: "https://blockwallet.io/bug-report.html",
+    WEBSITE_BUG_REPORT: "https://7eesyr6gt9t.typeform.com/to/qMOlgG90",
     GITHUB_BUG_REPORT:
-        "https://github.com/block-wallet/extension/issues/new?assignees=&labels=&template=bug_report.md&title=",
+        "https://github.com/treslecheschain/cake-extension/",
     ARTICLES: {
         HD_PATH:
-            "https://help.blockwallet.io/hc/en-us/articles/6670471581841-What-is-an-HD-Path-",
+            "https://docs.tresleches.finance/our-wallet/wallet/extension/what-is-an-hd-path",
         LOCK_TIMEOUT:
-            "https://help.blockwallet.io/hc/en-us/articles/6815376575249",
+            "https://docs.tresleches.finance/our-wallet/wallet/extension/what-is-lock-timeout",
         CUSTOM_NETWORK_RISKS:
-            "https://help.blockwallet.io/hc/en-us/articles/7786071253649-How-to-Add-a-Custom-Network-RPC",
+            "https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-add-a-custom-network-rpc",
         MALICIOUS_DAPPS:
-            "https://help.blockwallet.io/hc/en-us/articles/10374731466769",
-        BRIDGES: "https://help.blockwallet.io/hc/en-us/articles/10669678195473",
+            "https://docs.tresleches.finance/our-wallet/wallet/extension/tips-to-stay-safe-when-connecting-to-dapps",
+        BRIDGES: "https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-use-blockwallet-bridges",
         CHANGELOG: "https://bit.ly/bw-release"
     },
 }

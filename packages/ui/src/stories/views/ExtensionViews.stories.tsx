@@ -309,7 +309,7 @@ export const SwitchEthereumChain = () => (
                     origin: "http://app.blockwallet.io/",
                     siteMetadata: {
                         name: "CakeWallet",
-                        iconURL: "http://app.blockwallet.io/icons/icon-128.png",
+                        iconURL: "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fd4tZK60yHGi5Os6HuJJE%2Fuploads%2FQVpOrjYakN2wq1QXhFY5%2Fandroid-chrome-100x100.png",
                     },
                     time: 1,
                     type: DappReq.SWITCH_NETWORK,
@@ -332,7 +332,7 @@ export const AddEthereumChain = () => (
                     origin: "http://app.blockwallet.io/",
                     siteMetadata: {
                         name: "CakeWallet",
-                        iconURL: "http://app.CakeWallet.io/icons/icon-128.png",
+                        iconURL: "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fd4tZK60yHGi5Os6HuJJE%2Fuploads%2FQVpOrjYakN2wq1QXhFY5%2Fandroid-chrome-100x100.png",
                     },
                     time: 1,
                     type: DappReq.ADD_ETHEREUM_CHAIN,
