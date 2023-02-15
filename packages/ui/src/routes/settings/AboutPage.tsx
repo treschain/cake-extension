@@ -11,8 +11,8 @@ import logo from "../../assets/images/logo.png"
 const links = [
     {
         icon: <HiGlobeAlt className="w-5 h-5" />,
-        link: "https://tresleches.finance",
-        text: "tresleches.finance",
+        link: "https://treschain.io",
+        text: "treschain.io",
     },
     {
         icon: <FaTelegramPlane className="w-5 h-5" />,
@@ -38,15 +38,15 @@ const AboutPage = () => {
                     <div className="flex items-center">
                         <img
                             src={logo}
-                            alt="CakeWallet logo"
+                            alt="TresWallet logo"
                             className="w-5 h-5"
                         />
                         <span className="ml-2 text-lg font-bold">
-                            CakeWallet
+                            TresWallet
                         </span>
                     </div>
                     <p className="mt-4">
-                        CakeWallet is the most private, non-custodial browser
+                        TresWallet is the most private, non-custodial browser
                         extension wallet where users can store funds and
                         interact with their favorite blockchain applications
                         anonymously.

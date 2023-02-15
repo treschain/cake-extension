@@ -214,7 +214,7 @@ const SearchNetworkPage = () => {
                                     >
                                         <span>
                                             The network you are searching for is
-                                            unknown to CakeWallet. Try to
+                                            unknown to TresWallet. Try to
                                             adjusting your search term or
                                             filters, or{" "}
                                             <ClickableText

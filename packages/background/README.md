@@ -1,4 +1,4 @@
-# [Block Wallet Extension](https://tresleches.finance/) background
+# [Block Wallet Extension](https://treschain.com/) background
 
 [![CI](../../workflows/Tests/badge.svg)](../../actions?query=Test)
 

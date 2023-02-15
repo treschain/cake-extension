@@ -44,7 +44,7 @@ const SetupPage = () => {
     return (
         <PageLayout className="relative" header>
             <span className="my-6 text-lg font-bold font-title">
-                New to CakeWallet?
+                New to TresWallet?
             </span>
             <Divider />
             <div className="flex flex-col w-full p-6 space-y-4 md:flex-row md:space-y-0 md:space-x-4">

@@ -372,7 +372,7 @@ const WatchAsset: FunctionComponent<DappRequestProps> = ({
                     <div className="text-xs py-2">
                         <WarningTip
                             text={
-                                "CakeWallet does not currently support Base64 encoded images. It will be replaced by a default image."
+                                "TresWallet does not currently support Base64 encoded images. It will be replaced by a default image."
                             }
                             fontSize="text-xs"
                         />

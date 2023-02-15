@@ -47,14 +47,14 @@ export const LINKS = {
         "https://github.com/treslecheschain/cake-extension/",
     ARTICLES: {
         HD_PATH:
-            "https://docs.tresleches.finance/our-wallet/wallet/extension/what-is-an-hd-path",
+            "https://docs.treschain.io/our-wallet/wallet/extension/what-is-an-hd-path",
         LOCK_TIMEOUT:
-            "https://docs.tresleches.finance/our-wallet/wallet/extension/what-is-lock-timeout",
+            "https://docs.treschain.io/our-wallet/wallet/extension/what-is-lock-timeout",
         CUSTOM_NETWORK_RISKS:
-            "https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-add-a-custom-network-rpc",
+            "https://docs.treschain.io/our-wallet/wallet/extension/how-to-add-a-custom-network-rpc",
         MALICIOUS_DAPPS:
-            "https://docs.tresleches.finance/our-wallet/wallet/extension/tips-to-stay-safe-when-connecting-to-dapps",
-        BRIDGES: "https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-use-blockwallet-bridges",
+            "https://docs.treschain.io/our-wallet/wallet/extension/tips-to-stay-safe-when-connecting-to-dapps",
+        BRIDGES: "https://docs.treschain.io/our-wallet/wallet/extension/how-to-use-blockwallet-bridges",
         CHANGELOG: "https://bit.ly/bw-release"
     },
 }

@@ -11,7 +11,7 @@ const IntroductionPage = () => (
             <LogoHeader />
             <div className="flex flex-col items-center my-12 space-y-6">
                 <span className="font-title font-semibold text-5xl">
-                    CakeWallet
+                    TresWallet
                 </span>
                 <div className="flex flex-col md:flex-row items-center space-x-1 w-52 md:w-full mx-auto text-gray-600 text-sm text-center">
                     <span>Have a transfer to make?</span>

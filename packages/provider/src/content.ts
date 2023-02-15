@@ -34,7 +34,7 @@ function injectProvider() {
 
 window.addEventListener('ethereum#initialized', (e: Event) => {
     const customEvent = e as CustomEvent;
-    if (customEvent.detail !== 'isCakeWallet') {
+    if (customEvent.detail !== 'isTresWallet') {
         providerOverridden = true;
     } else {
         providerOverridden = false;
@@ -92,7 +92,7 @@ chrome.runtime.sendMessage(
             }
             port.disconnect();
             window.removeEventListener('message', windowListener);
-            log.warn('CakeWallet: Provider not injected due to user setting.');
+            log.warn('TresWallet: Provider not injected due to user setting.');
         } else if (providerOverridden) {
             injectProvider();
         }

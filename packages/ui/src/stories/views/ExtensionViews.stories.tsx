@@ -308,7 +308,7 @@ export const SwitchEthereumChain = () => (
                 "1": {
                     origin: "http://app.blockwallet.io/",
                     siteMetadata: {
-                        name: "CakeWallet",
+                        name: "TresWallet",
                         iconURL: "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fd4tZK60yHGi5Os6HuJJE%2Fuploads%2FQVpOrjYakN2wq1QXhFY5%2Fandroid-chrome-100x100.png",
                     },
                     time: 1,
@@ -331,7 +331,7 @@ export const AddEthereumChain = () => (
                 "1": {
                     origin: "http://app.blockwallet.io/",
                     siteMetadata: {
-                        name: "CakeWallet",
+                        name: "TresWallet",
                         iconURL: "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fd4tZK60yHGi5Os6HuJJE%2Fuploads%2FQVpOrjYakN2wq1QXhFY5%2Fandroid-chrome-100x100.png",
                     },
                     time: 1,

@@ -167,10 +167,10 @@ export const INITIAL_NETWORKS: Networks = {
         iconUrls: [
             'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
         ],
-        rpcUrls: ['http://rpc.tresleches.finance:8545'],
-        blockExplorerUrls: ['https://explorer.tresleches.finance'],
+        rpcUrls: ['http://rpc.treschain.io:8545'],
+        blockExplorerUrls: ['https://explorer.treschain.io'],
         blockExplorerName: 'Tres Leches Explorer',
-        etherscanApiUrl: 'https://explorer.tresleches.finance/api',
+        etherscanApiUrl: 'https://explorer.treschain.io/api',
         actionsTimeIntervals: {
             ...FAST_TIME_INTERVALS_DEFAULT_VALUES,
         },
@@ -726,8 +726,8 @@ export const INITIAL_NETWORKS: Networks = {
             'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
         ],
         rpcUrls: ['https://rpc-test.tresleches.finance'],
-        blockExplorerName: 'Tres Leches Explorer',
-        blockExplorerUrls: ['https://explorer-test.tresleches.finance'],
+        blockExplorerName: 'Tres Chain Explorer',
+        blockExplorerUrls: ['https://treschain.co'],
         actionsTimeIntervals: { ...SLOW_TESTNET_TIME_INTERVALS_DEFAULT_VALUES },
         tornadoIntervals: {
             depositConfirmations: DEFAULT_TORNADO_CONFIRMATION,

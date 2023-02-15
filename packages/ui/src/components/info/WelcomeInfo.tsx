@@ -25,27 +25,27 @@ const WelcomeInfo: FC<WelcomeInfoProps> = ({ onDismiss }) => {
         >
             <div className="w-full p-6 pb-0 bg-white bg-opacity-75">
                 <Info>
-                    <Info.Title>Welcome to CakeWallet!</Info.Title>
+                    <Info.Title>Welcome to TresWallet!</Info.Title>
                     <div className="p-1 pt-6">
                         <Info.List>
                             {settings.defaultBrowserWallet ? (
                                 <Info.Item type="success">
-                                    CakeWallet is your default browser wallet
+                                    TresWallet is your default browser wallet
                                     to interact with DApps.
                                 </Info.Item>
                             ) : (
                                 <Info.Item type="warn">
-                                    Set CakeWallet as your default browser
+                                    Set TresWallet as your default browser
                                     wallet to interact with DApps.
                                 </Info.Item>
                             )}
 
                             <Info.Item type="warn">
-                                Select CakeWallet or, alternatively the
+                                Select TresWallet or, alternatively the
                                 injected option, to connect with DApps.
                             </Info.Item>
                             <Info.Item type="warn">
-                                If you don't see CakeWallet's logo when
+                                If you don't see TresWallet's logo when
                                 connecting, select another browser wallet's
                                 logo.
                             </Info.Item>
@@ -62,7 +62,7 @@ const WelcomeInfo: FC<WelcomeInfoProps> = ({ onDismiss }) => {
                                 if you have any questions or feedback.
                             </Info.Item>
                             <Info.Item type="success" className="m-0 mt-16">
-                                We hope that you enjoy using the CakeWallet!
+                                We hope that you enjoy using the TresWallet!
                             </Info.Item>
                         </Info.List>
                     </div>

@@ -50,11 +50,11 @@ const SetupDonePage = () => {
                         </span>
                         <div className="flex flex-col md:flex-row items-center space-x-1 w-92 px-4 md:px-0 md:w-full mx-auto text-gray-600 text-sm text-center leading-loose">
                             <span>
-                                You're ready to start using CakeWallet.
+                                You're ready to start using TresWallet.
                                 <br />
                                 Your journey to financial privacy starts here.
                                 <br />
-                                Access CakeWallet via the extensions section of
+                                Access TresWallet via the extensions section of
                                 your browser.
                             </span>
                         </div>

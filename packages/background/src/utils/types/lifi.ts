@@ -177,7 +177,7 @@ export const lifiBridgeSubstatusToBridgeSubstatus = (
 
 const getFeeName = (fee: LifiFeeCost): string => {
     if (fee.name.match(/integrator fee/i)) {
-        return 'CakeWallet + LI.FI fee';
+        return 'TresWallet + LI.FI fee';
     }
     return fee.name;
 };

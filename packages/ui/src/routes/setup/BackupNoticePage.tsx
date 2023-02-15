@@ -81,7 +81,7 @@ const BackupNoticePage = () => {
                         Your seed phrase is the key to your wallet. It makes it
                         possible to restore your wallet after losing access.
                         Import your seed phrase to gain access to the funds held
-                        on your CakeWallet. Backup your seed phrase and store
+                        on your TresWallet. Backup your seed phrase and store
                         it in a safe place.
                     </span>
                     <div className="md:hidden">

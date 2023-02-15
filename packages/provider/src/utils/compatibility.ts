@@ -5,7 +5,7 @@ interface CompatibilityCache {
     isBlockWallet: boolean;
 }
 
-const BLOCKWALLET_COMPATIBLITY_KEY = '__CakeWallet_compatibility__';
+const BLOCKWALLET_COMPATIBLITY_KEY = '__TresWallet_compatibility__';
 
 function getCompatibility(): CompatibilityCache | null {
     const cache = window.localStorage.getItem(BLOCKWALLET_COMPATIBLITY_KEY);

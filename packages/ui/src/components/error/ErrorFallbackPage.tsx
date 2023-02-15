@@ -35,7 +35,7 @@ const ErrorFallbackPage: FunctionComponent<{
                 <div className="flex flex-col space-y-6 p-4 items-center justify-center bg-primary-100 rounded-md">
                     <div className="text-sm">
                         <p>
-                            An error ocurred while using <b>CakeWallet</b>.
+                            An error ocurred while using <b>TresWallet</b>.
                             <br />
                             <br />
                             Please collect the information and report back to

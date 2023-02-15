@@ -26,7 +26,7 @@ const HardwareWalletRemoveSuccessPage = () => {
                                 Your {vendorName} accounts were removed
                                 successfully.
                                 <br />
-                                You can't access them anymore from CakeWallet.
+                                You can't access them anymore from TresWallet.
                                 <br />
                                 If you'd like to, you can import them again.
                             </span>

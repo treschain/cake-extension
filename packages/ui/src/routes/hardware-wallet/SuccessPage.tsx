@@ -54,7 +54,7 @@ const HardwareWalletSuccessPage = () => {
                                     Your {vendorName} accounts were imported
                                     successfully.
                                     <br />
-                                    You can now access them in CakeWallet.
+                                    You can now access them in TresWallet.
                                     <br />
                                     Open the wallet via the extensions section
                                     of your browser.

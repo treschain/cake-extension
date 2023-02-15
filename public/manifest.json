@@ -22,7 +22,7 @@
     "action": {
         "default_popup": "popup.html",
         "default_icon": "icons/icon-32.png",
-        "default_title": "CakeWallet"
+        "default_title": "TresWallet"
     },
     "icons": {
         "16": "icons/icon-16.png",
@@ -33,23 +33,25 @@
         "128": "icons/icon-128.png",
         "512": "icons/icon-512.png"
       },
-    "description": "Official Wallet for Tres Leches Chain, A blockchain so sweet you can actually taste it.",
-    "homepage_url": "https://tresleches.finance",
+    "description": "Official Wallet for Tres Chain, A blockchain so sweet you can actually taste it.",
+    "homepage_url": "https://treschain.com",
 	    "content_security_policy": {
   		"extension_pages": "script-src 'self'; object-src 'self'"
 	},
 
     "manifest_version": 3,
-    "name": "CakeWallet",
+    "name": "TresWallet",
     "permissions": ["activeTab", "storage", "notifications", "alarms"],
     "host_permissions": [
         "https://*.blockwallet.io/*",
-        "https://*.tresleches.finance/*",
+        "https://*.treschain.com/*",
+        "https://*.treschain.co/*",
+        "https://*.treschain.io/*",
         "https://*.etherscan.io/*",
         "https://*.bscscan.com/*",
         "https://*.polygonscan.com/*"
     ],
-    "short_name": "CakeWallet",
+    "short_name": "TresWallet",
     "version": "1.5.3",
     "web_accessible_resources": [{
         "resources": ["blankProvider.js"],

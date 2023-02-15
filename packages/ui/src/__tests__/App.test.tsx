@@ -20,7 +20,7 @@ test("Tab renders", () => {
     render(
         <MockTab location="/intro" assignBlankState={{ isOnboarded: false }} />
     )
-    const blockWallet = screen.queryAllByText(/CakeWallet/i).length !== 0
+    const blockWallet = screen.queryAllByText(/TresWallet/i).length !== 0
     expect(blockWallet).toBeTruthy()
 })
 

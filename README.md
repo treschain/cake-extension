@@ -1,11 +1,11 @@
-# CakeWallet - Extension
+# TresWallet - Extension
 
 The most private, non-custodial cryptocurrency wallet
-The first crypto wallet protecting you on Web3 without any compromises. Stay safe with CakeWallet.
+The first crypto wallet protecting you on Web3 without any compromises. Stay safe with TresWallet.
 
 Supporting Ethereum, BNB Chain, Polygon, Avalanche, Fantom, Arbitrum and Tres Leches Chain.
 
-CakeWallet is for you if:
+TresWallet is for you if:
 
 - You frequently use DApps and DEXes.
 - You want your tools working smoothly, every time.
@@ -81,6 +81,7 @@ Once you installed everything run the command
 ```
 make build
 ```
+
 make build/prod
 
 make build/prod-zip
@@ -103,7 +104,7 @@ make lint
 
 ### Release
 
-The release process uses a combination of two GitHub workflows called [build](.github/workflows/build.yml) and [release](.github/workflows/release.yml) and finally a manual step to upload the new extension version to the [Chrome Web Store](https://chrome.google.com/webstore/detail/CakeWallet/bopcbmipnjdcdfflfgjdgdjejmgpoaab). See the [GitHub releases](https://github.com/block-wallet/extension/releases)
+The release process uses a combination of two GitHub workflows called [build](.github/workflows/build.yml) and [release](.github/workflows/release.yml) and finally a manual step to upload the new extension version to the [Chrome Web Store](https://chrome.google.com/webstore/detail/TresWallet/bopcbmipnjdcdfflfgjdgdjejmgpoaab). See the [GitHub releases](https://github.com/block-wallet/extension/releases)
 
 ## Built With
 

@@ -71,15 +71,15 @@ const getLabels = (
 > => {
     if (operation === ApproveOperation.BRIDGE) {
         return {
-            mainSectionTitle: `Approve CakeWallet to bridge your ${assetName}`,
-            mainSectionText: `Allow CakeWallet Bridge to withdraw your ${assetName} and automate transactions for you.`,
-            editAllowanceText: `Allow the CakeWallet Bridge to the following amount of ${assetName}:`,
+            mainSectionTitle: `Approve TresWallet to bridge your ${assetName}`,
+            mainSectionText: `Allow TresWallet Bridge to withdraw your ${assetName} and automate transactions for you.`,
+            editAllowanceText: `Allow the TresWallet Bridge to the following amount of ${assetName}:`,
         }
     } else {
         return {
-            mainSectionTitle: `Approve CakeWallet to swap your ${assetName}`,
-            mainSectionText: `Allow CakeWallet Swaps to withdraw your ${assetName} and automate transactions for you.`,
-            editAllowanceText: `Allow CakeWallet Swaps to swap up to the following amount of ${assetName}:`,
+            mainSectionTitle: `Approve TresWallet to swap your ${assetName}`,
+            mainSectionText: `Allow TresWallet Swaps to withdraw your ${assetName} and automate transactions for you.`,
+            editAllowanceText: `Allow TresWallet Swaps to swap up to the following amount of ${assetName}:`,
         }
     }
 }

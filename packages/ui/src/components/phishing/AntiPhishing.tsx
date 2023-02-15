@@ -27,7 +27,7 @@ const AntiPhishing: FunctionComponent<{
                     <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-use-the-phishing-protection-feature"
+                        href="https://docs.treschain.io/our-wallet/wallet/extension/how-to-use-the-phishing-protection-feature"
                     >
                         <img
                             src={image}

@@ -26,7 +26,7 @@ const HardwareWalletVendorsPage = () => {
     return (
         <HardwareWalletSetupLayout
             title="Connect Hardware Wallet"
-            subtitle="Select a Hardware Wallet you'd like to use with CakeWallet."
+            subtitle="Select a Hardware Wallet you'd like to use with TresWallet."
             buttons={
                 <ButtonWithLoading
                     label={"Continue"}
@@ -76,15 +76,15 @@ const HardwareWalletVendorsPage = () => {
                 <Divider />
                 <div className="w-full flex flex-col p-8 space-y-5">
                     <ExternalLink
-                        href="https://docs.tresleches.finance/our-wallet/wallet/extension/how-do-hardware-wallets-work"
+                        href="https://docs.treschain.io/our-wallet/wallet/extension/how-do-hardware-wallets-work"
                         title="How do Hardware Wallets work?"
                     />
                     <ExternalLink
-                        href="https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-get-the-ledger-hardware-wallet"
+                        href="https://docs.treschain.io/our-wallet/wallet/extension/how-to-get-the-ledger-hardware-wallet"
                         title="How to get a Ledger?"
                     />
                     <ExternalLink
-                        href="https://docs.tresleches.finance/our-wallet/wallet/extension/how-to-get-the-trezor-hardware-wallet"
+                        href="https://docs.treschain.io/our-wallet/wallet/extension/how-to-get-the-trezor-hardware-wallet"
                         title="How to get a Trezor?"
                     />
                 </div>

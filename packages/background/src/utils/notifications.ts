@@ -11,7 +11,7 @@ import { getChainListItem } from './chainlist';
 
 export const showSetUpCompleteNotification = (): void => {
     const url = '';
-    const title = 'CakeWallet is ready, Get a Piece of Cake.';
+    const title = 'TresWallet is ready, Get a Piece of Cake.';
     const message =
         "You've completed the set-up process. Check the extension in the upper right corner of your browser.";
 

@@ -41,12 +41,12 @@ const ResetDonePage = () => {
                         </span>
                         <div className="flex flex-col md:flex-row items-center space-x-1 w-52 md:w-full mx-auto text-gray-600 text-sm text-center leading-loose">
                             <span>
-                                You're ready to start using CakeWallet again.
+                                You're ready to start using TresWallet again.
                                 <br />
                                 The wallet has been reset with a new seed
                                 phrase.
                                 <br />
-                                Access CakeWallet via the extensions section of
+                                Access TresWallet via the extensions section of
                                 your browser.
                             </span>
                         </div>

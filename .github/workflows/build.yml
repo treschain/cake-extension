@@ -187,7 +187,7 @@ jobs:
       - name: Save extension folder
         uses: actions/upload-artifact@v3
         with:
-          name: cakewallet-extension
+          name: TresWallet-extension
           if-no-files-found: error
           path: dist
 
@@ -228,8 +228,8 @@ jobs:
       - name: Download the extension
         uses: actions/download-artifact@v3
         with:
-          name: cakewallet-extension
-          path: cakewallet-extension
+          name: TresWallet-extension
+          path: TresWallet-extension
 
       - name: Install e2e dependencies
         run: |
@@ -274,13 +274,13 @@ jobs:
       - name: Delete artifacts folders
         run: |
           rm -rf screenshot
-          rm -rf cakewallet-extension
+          rm -rf TresWallet-extension
 
       - name: Download the extension built folder
         uses: actions/download-artifact@v3
         with:
-          name: cakewallet-extension
-          path: cakewallet-extension
+          name: TresWallet-extension
+          path: TresWallet-extension
 
       - name: Download the extension screenshot (release notes)
         uses: actions/download-artifact@v3
@@ -292,7 +292,7 @@ jobs:
         id: zip
         run: |
           mkdir -p $ARTIFACTS_FOLDER
-          mv cakewallet-extension dist
+          mv TresWallet-extension dist
           zip -r -D $ARTIFACTS_FOLDER/$EXTENSION_NAME.zip dist/
 
       - name: Calculate SHA of the extension
