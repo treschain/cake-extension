@@ -22,7 +22,7 @@ const links = [
     {
         icon: <GrReddit className="w-5 h-5" />,
         link: "https://www.reddit.com/r/Treschain/",
-        text: "reddit.com/treschain,
+        text: "reddit.com/treschain",
     },
     {
         icon: <IoLogoTwitter className="w-5 h-5" />,
