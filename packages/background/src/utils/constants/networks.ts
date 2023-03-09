@@ -168,9 +168,9 @@ export const INITIAL_NETWORKS: Networks = {
             'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
         ],
         rpcUrls: ['http://rpc.treschain.io:8545'],
-        blockExplorerUrls: ['https://explorer.treschain.io'],
+        blockExplorerUrls: ['https://treschain.io'],
         blockExplorerName: 'Tres Leches Explorer',
-        etherscanApiUrl: 'https://explorer.treschain.io/api',
+        etherscanApiUrl: 'https://treschain.io/api',
         actionsTimeIntervals: {
             ...FAST_TIME_INTERVALS_DEFAULT_VALUES,
         },

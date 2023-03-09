@@ -39,12 +39,12 @@ export const BASE_BRIDGE_FEE = 0.005
 export const SWAP_QUOTE_REFRESH_TIMEOUT = 1000 * 15
 
 export const LINKS = {
-    TELEGRAM: "https://t.me/treslechesfinance",
-    GITHUB: "https://github.com/treslecheschain/",
+    TELEGRAM: "https://t.me/treschain",
+    GITHUB: "https://github.com/treschain/",
     TWITTER: "https://twitter.com/treslecheschain",
     WEBSITE_BUG_REPORT: "https://7eesyr6gt9t.typeform.com/to/qMOlgG90",
     GITHUB_BUG_REPORT:
-        "https://github.com/treslecheschain/cake-extension/",
+        "https://github.com/treschain/treswallet-extension/",
     ARTICLES: {
         HD_PATH:
             "https://docs.treschain.io/our-wallet/wallet/extension/what-is-an-hd-path",

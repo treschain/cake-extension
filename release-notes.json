@@ -444,6 +444,24 @@
                 }
             ],
             "version": "0.5.3"
+        },
+        {
+            "sections": [
+                {
+                    "title": "v0.5.4",
+                    "notes": [
+                        {
+                            "type": "success",
+                            "message": "Rebrand to TresWallet"
+                        },
+                        {
+                            "type": "warn",
+                            "message": "Fixed minor logos."
+                        }
+                    ]
+                }
+            ],
+            "version": "0.5.4"
         }
     ]
 }

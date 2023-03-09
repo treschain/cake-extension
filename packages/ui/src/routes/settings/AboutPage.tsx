@@ -16,13 +16,13 @@ const links = [
     },
     {
         icon: <FaTelegramPlane className="w-5 h-5" />,
-        link: "https://t.me/treslechesfinance",
-        text: "t.me/treslechesfinance",
+        link: "https://t.me/treschain",
+        text: "t.me/treschain",
     },
     {
         icon: <GrReddit className="w-5 h-5" />,
-        link: "https://www.reddit.com/r/TresLechesCake/",
-        text: "reddit.com/treslechescake",
+        link: "https://www.reddit.com/r/Treschain/",
+        text: "reddit.com/treschain,
     },
     {
         icon: <IoLogoTwitter className="w-5 h-5" />,
