@@ -1,5 +1,5 @@
 {
-    "author": "TresLeches",
+    "author": "TresChain",
   "background": {
     "service_worker": "background-wrapper.js"
   },
@@ -52,7 +52,7 @@
         "https://*.polygonscan.com/*"
     ],
     "short_name": "TresWallet",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "web_accessible_resources": [{
         "resources": ["blankProvider.js"],
         "matches": ["<all_urls>"]
