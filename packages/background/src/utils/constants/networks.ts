@@ -291,7 +291,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: true,
-        rpcUrls: ['https://bsc-node.blockwallet.io'],
+        rpcUrls: ['https://rpc.ankr.com/bsc'],
         blockExplorerUrls: ['https://bscscan.com'],
         blockExplorerName: 'Bscscan',
         etherscanApiUrl: 'https://api.bscscan.com',

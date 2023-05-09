@@ -347,7 +347,7 @@ export const AddEthereumChain = () => (
                             symbol: "BNB",
                             decimals: 18,
                         },
-                        rpcUrl: "https://bsc-node.blockwallet.io",
+                        rpcUrl: "https://rpc-bsc.48.club",
                         validations: {
                             knownIcon: false,
                             knownBlockExplorer: true,
