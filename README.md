@@ -3,7 +3,7 @@
 The most private, non-custodial cryptocurrency wallet
 The first crypto wallet protecting you on Web3 without any compromises. Stay safe with TresWallet.
 
-Supporting Ethereum, BNB Chain, Polygon, Avalanche, Fantom, Arbitrum and Tres Leches Chain.
+Supporting Tres Chain.
 
 TresWallet is for you if:
 

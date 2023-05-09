@@ -1,12 +1,12 @@
-# [Block wallet](https://blockwallet.io/) ethereum provider
+# [Block wallet](https://TresWallet.io/) ethereum provider
 
 [![CI](../../workflows/Tests/badge.svg)](../../actions?query=Test)
 
-This package will output the content script and the BlockWallet provider itself to the monorepo `dist` folder.
+This package will output the content script and the TresWallet provider itself to the monorepo `dist` folder.
 
 The content script is mainly used to relay messages to the background, and check if the source of these is genuine. On init, it's used to load the script to the page.
 
-The BlockWallet provider is a class compliant with the EIP-1193 that communicates with any dapp that needs access to the ethereum network and the user's accounts.
+The TresWallet provider is a class compliant with the EIP-1193 that communicates with any dapp that needs access to the ethereum network and the user's accounts.
 
 ## 🚀 Quick Start
 

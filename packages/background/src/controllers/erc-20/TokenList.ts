@@ -117,20 +117,20 @@ const NETWORK_TOKENS_LIST: INetworkTokens = {
     4: {}, // rinkeby
     97: {}, // bsc testnet
     280: {}, // zkSync alpha testnet
-    6065: {'0x7ECBfAfFaA55057561ea5CaAb799086F1E0450a6': {
+    6065: {'0x66bc84b4270cA0F056E27e5cD77B2401522191c6': {
         decimals: 18,
         symbol: 'WTRES',
-        name: 'Wrapped Tres Leches',
-        address: '0x7ECBfAfFaA55057561ea5CaAb799086F1E0450a6',
-        logo: 'https://raw.githubusercontent.com/treslecheschain/assets/master/blockchains/tresleches/assets/0x403Fd373c40E97b13b9573bAf5acA5D6380B4BFF/logo.png',
+        name: 'Wrapped Tres',
+        address: '0x66bc84b4270cA0F056E27e5cD77B2401522191c6',
+        logo: 'https://raw.githubusercontent.com/treschain/assets/master/blockchains/tresleches/assets/0x403Fd373c40E97b13b9573bAf5acA5D6380B4BFF/logo.png',
         type: 'TRES20',
     },}, // tresleches testnet
-    6066: { '0x403Fd373c40E97b13b9573bAf5acA5D6380B4BFF': {
+    6066: { '0x66bc84b4270cA0F056E27e5cD77B2401522191c6': {
         decimals: 18,
         symbol: 'WTRES',
-        name: 'Wrapped Tres Leches',
-        address: '0x403Fd373c40E97b13b9573bAf5acA5D6380B4BFF',
-        logo: 'https://raw.githubusercontent.com/treslecheschain/assets/master/blockchains/tresleches/assets/0x403Fd373c40E97b13b9573bAf5acA5D6380B4BFF/logo.png',
+        name: 'Wrapped Tres',
+        address: '0x66bc84b4270cA0F056E27e5cD77B2401522191c6',
+        logo: 'https://raw.githubusercontent.com/treschain/assets/master/blockchains/tresleches/assets/0x403Fd373c40E97b13b9573bAf5acA5D6380B4BFF/logo.png',
         type: 'TRES20',
     },}, // tresleches mainnet
     1337: {}, // localhost
@@ -182,7 +182,7 @@ for (const chainId in TOKENS_LIST) {
         if ('l' in token) {
             logo = 'https://' + token['l'];
         } else {
-            logo = `https://raw.githubusercontent.com/treslecheschain/assets/master/blockchains/${
+            logo = `https://raw.githubusercontent.com/treschain/assets/master/blockchains/${
                 NETWORKS_NAMES[parseInt(chainId)]
             }/assets/${address}/logo.png`;
         }

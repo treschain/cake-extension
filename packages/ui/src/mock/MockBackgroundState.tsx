@@ -559,11 +559,11 @@ export const initBackgroundState: BackgroundStateType = {
             },
             TRESTEST: {
                 name: "trestest",
-                desc: "Tres Leches Testnet",
+                desc: "Tres Testnet",
                 chainId: 6065,
                 networkVersion: "6065",
                 nativeCurrency: {
-                    name: "Tres Leches",
+                    name: "Tres",
                     symbol: "TRES",
                     decimals: 18,
                 },
@@ -580,11 +580,11 @@ export const initBackgroundState: BackgroundStateType = {
             },
             TRESMAIN: {
                 name: "tresmain",
-                desc: "Tres Leches Mainnet",
+                desc: "Tres Mainnet",
                 chainId: 6066,
                 networkVersion: "6066",
                 nativeCurrency: {
-                    name: "Tres Leches",
+                    name: "Tres",
                     symbol: "TRES",
                     decimals: 18,
                 },

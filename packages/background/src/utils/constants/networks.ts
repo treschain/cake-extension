@@ -146,11 +146,11 @@ export type Networks = {
 export const INITIAL_NETWORKS: Networks = {
     TRESMAIN: {
         name: 'tresmain',
-        desc: 'Tres Leches Mainnet',
+        desc: 'Tres Mainnet',
         chainId: 6066,
         networkVersion: '6066',
         nativeCurrency: {
-            name: 'Tres Leches',
+            name: 'Tres',
             symbol: 'TRES',
             decimals: 18,
         },
@@ -165,11 +165,11 @@ export const INITIAL_NETWORKS: Networks = {
         },
         showGasLevels: true,
         iconUrls: [
-            'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
+            'https://raw.githubusercontent.com/treschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
         ],
-        rpcUrls: ['http://rpc.treschain.io:8545'],
+        rpcUrls: ['https://rpc.treschain.io'],
         blockExplorerUrls: ['https://treschain.io'],
-        blockExplorerName: 'Tres Leches Explorer',
+        blockExplorerName: 'Tres Explorer',
         etherscanApiUrl: 'https://treschain.io/api',
         actionsTimeIntervals: {
             ...FAST_TIME_INTERVALS_DEFAULT_VALUES,
@@ -197,7 +197,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: true,
         showGasLevels: true,
-        rpcUrls: [`https://mainnet-node.blockwallet.io`],
+        rpcUrls: [`https://rpc.payload.de`],
         blockExplorerUrls: ['https://etherscan.io'],
         blockExplorerName: 'Etherscan',
         etherscanApiUrl: 'https://api.etherscan.io',
@@ -227,7 +227,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: false,
-        rpcUrls: ['https://arbitrum-node.blockwallet.io'],
+        rpcUrls: ['https://arbitrum-one.public.blastapi.io'],
         blockExplorerUrls: ['https://arbiscan.io'],
         blockExplorerName: 'Arbiscan',
         etherscanApiUrl: 'https://api.arbiscan.io',
@@ -704,11 +704,11 @@ export const INITIAL_NETWORKS: Networks = {
     },
     TRESTEST: {
         name: 'trestest',
-        desc: 'Tres Leches Testnet',
+        desc: 'Tres Testnet',
         chainId: 6065,
         networkVersion: '6065',
         nativeCurrency: {
-            name: 'Tres Leches',
+            name: 'Tres',
             symbol: 'tTRES',
             decimals: 18,
         },
@@ -723,7 +723,7 @@ export const INITIAL_NETWORKS: Networks = {
         ens: false,
         showGasLevels: true,
         iconUrls: [
-            'https://raw.githubusercontent.com/treslecheschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
+            'https://raw.githubusercontent.com/treschain/3Leches/main/Logos/Blockchain/favicon-32x32.png',
         ],
         rpcUrls: ['https://rpc-test.tresleches.finance'],
         blockExplorerName: 'Tres Chain Explorer',

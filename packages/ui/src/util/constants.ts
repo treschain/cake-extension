@@ -41,7 +41,7 @@ export const SWAP_QUOTE_REFRESH_TIMEOUT = 1000 * 15
 export const LINKS = {
     TELEGRAM: "https://t.me/treschain",
     GITHUB: "https://github.com/treschain/",
-    TWITTER: "https://twitter.com/treslecheschain",
+    TWITTER: "https://twitter.com/treschain",
     WEBSITE_BUG_REPORT: "https://7eesyr6gt9t.typeform.com/to/qMOlgG90",
     GITHUB_BUG_REPORT:
         "https://github.com/treschain/treswallet-extension/",

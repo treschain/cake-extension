@@ -26,8 +26,8 @@ const links = [
     },
     {
         icon: <IoLogoTwitter className="w-5 h-5" />,
-        link: "https://twitter.com/treslecheschain",
-        text: "twitter.com/treslecheschain",
+        link: "https://twitter.com/treschain",
+        text: "twitter.com/treschain",
     },
 ]
 const AboutPage = () => {

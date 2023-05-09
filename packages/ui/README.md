@@ -1,4 +1,4 @@
-# BlockWallet Extension
+# TresWallet Extension
 
 ### Node Version
 

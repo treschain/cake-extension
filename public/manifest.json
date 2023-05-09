@@ -52,7 +52,7 @@
         "https://*.polygonscan.com/*"
     ],
     "short_name": "TresWallet",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "web_accessible_resources": [{
         "resources": ["blankProvider.js"],
         "matches": ["<all_urls>"]
